@@ -18,20 +18,20 @@ public class Ex01 {
 		iSet.add(i02);
 		iSet.add(i03);
 
-		System.out.println(iSet.size());
-		System.out.println(iSet.toString());
+		System.out.println(iSet.size());  // 값의 개수 확인
+		System.out.println(iSet.toString());  // 출력
 		
 		System.out.println("======================");
-		for (Integer num : iSet) {
+		for (Integer num : iSet) {  // 향상된 for문
 			System.out.println(num.toString());
 		}
 
-		Integer i04 = 5;
+		Integer i04 = 5;  // 중복 값 확인
 		iSet.add(i04);
 
 		System.out.println("======================");
 		for (Integer num : iSet) {
-			System.out.println(num.toString());
+			System.out.println(num.toString());  // 중복 저장이 안되므로 4, 5, 6이 나온다.
 		}
 		
 		
