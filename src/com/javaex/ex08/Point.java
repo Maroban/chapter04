@@ -1,4 +1,4 @@
-package com.javaex.ex07;
+package com.javaex.ex08;
 
 public class Point {
 
@@ -38,24 +38,6 @@ public class Point {
 		return "Point [x=" + x + ", y=" + y + "]";
 	}
 
-	@Override
-	public boolean equals(Object obj) {
-
-		Point p = (Point) obj;
-		if ((this.x == p.x) && (this.y == p.y)) {
-			return true;
-		} else {
-			return false;
-		}	
-	}
-
-	@Override
-	public int hashCode() {
-		return x+y;
-	}
-
-
-
-	
+		
 	
 }
